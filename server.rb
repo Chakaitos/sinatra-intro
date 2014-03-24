@@ -18,13 +18,3 @@ end
 get '/members' do
 	"This will be the members' index"
 end
-
-post '/entries' do
-  '''
-  <form method="post">
-  	<input type="text" name="username"></input>
-  	<input type="password" name="password"></input>
-  	<button type="submit" value="submit"></button>
-  </form>
-  '''
-end
